@@ -15,6 +15,14 @@ if not os.path.exists(UPLOAD_DIRECTORY):
 # app = Flask(__name__, static_folder="build/static", template_folder="build")
 app = Flask(__name__)
 
+@app.after_request
+def after_request(response):
+    header = response.headers
+    header['Access-Control-Allow-Origin'] = '*'
+    header['Access-Control-Allow-Headers'] = 'Content-Type, Authorization'
+    header['Access-Control-Allow-Methods'] = 'OPTIONS, HEAD, GET, POST, DELETE, PUT'
+    return response
+
 @app.route("/")
 def hello():
     return "Hello"
