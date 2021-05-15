@@ -20,7 +20,7 @@ body {
   color: #8e6548;
   font-weight: bold; */
   margin-top: 3%;
-  margin-left: 5%;
+  margin-left: 8%;
   font-weight: bold;
   color: rgb(100, 93, 238);
   font-size: calc(10px + 3vmin);
@@ -31,6 +31,7 @@ body {
   display:inline;
   /* flex-direction: column; */
 }
+
 #main-menu {
   /* background-color:#f1f0f1; */
   /* float: right; */
@@ -63,6 +64,12 @@ body {
   height: 60vmin;
   pointer-events: none;
 }
+
+.Graphic1 {
+  height: 25vmin;
+  pointer-events: none;
+}
+
 .Chart-container{
   float: right;
   margin-top: 5%;
@@ -80,18 +87,74 @@ body {
 .Main-content {
   float: left;
   /* background-color: #f1f0f1; */
-  margin-left: 5%;
+  margin-left: 8%;
+  max-width: 40%;
+  margin-top: 3%;
   color: rgb(100, 93, 238);
 }
 
+.Converter-container {
+  color: black;
+  padding-top: 5%;
+  font-weight: bold;
+}
 
 /* #large-font{
   color: #612afb;
 } */
 
+#Description-text {
+  color: black;
+}
+
+.Description {
+  color: rgb(100, 93, 238);
+
+}
+
+
+.Div-button {
+  border: rgb(100, 93, 238) solid 5px;
+  width: 30%;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1%;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 10%;
+  color: rgb(100, 93, 238);
+  overflow-anchor: auto;
+}
+
+.Div-button:hover {
+  color: #ffffff;
+  background-color: rgb(100, 93, 238);  
+}
+
+.Button-center{
+  padding: 4%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 .App-link {
   color: #61dafb;
 }
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
