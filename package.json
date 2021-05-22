@@ -13,7 +13,8 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2",
     "lodash": "^3.10.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,9 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   },
   "proxy": "http://127.0.0.1:5000"
 }
