@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/insights-generator/static/css/main.84b096b6.chunk.css",
-    "main.js": "/insights-generator/static/js/main.49be466c.chunk.js",
-    "main.js.map": "/insights-generator/static/js/main.49be466c.chunk.js.map",
-    "runtime-main.js": "/insights-generator/static/js/runtime-main.205034ab.js",
-    "runtime-main.js.map": "/insights-generator/static/js/runtime-main.205034ab.js.map",
-    "static/js/2.ba907998.chunk.js": "/insights-generator/static/js/2.ba907998.chunk.js",
-    "static/js/2.ba907998.chunk.js.map": "/insights-generator/static/js/2.ba907998.chunk.js.map",
-    "static/js/3.6194d9e0.chunk.js": "/insights-generator/static/js/3.6194d9e0.chunk.js",
-    "static/js/3.6194d9e0.chunk.js.map": "/insights-generator/static/js/3.6194d9e0.chunk.js.map",
+    "main.css": "/insights-generator/static/css/main.e739416e.css",
+    "main.js": "/insights-generator/static/js/main.5f365aa3.js",
+    "static/js/787.ab56a134.chunk.js": "/insights-generator/static/js/787.ab56a134.chunk.js",
+    "static/media/undraw_Data_points_re_vkpq.svg": "/insights-generator/static/media/undraw_Data_points_re_vkpq.7f5d03c3415fedb256c63430484ac7ec.svg",
+    "static/media/undraw_data_processing_yrrv.svg": "/insights-generator/static/media/undraw_data_processing_yrrv.f1a92978409d241538112e47766fd8a0.svg",
+    "static/media/logo.svg": "/insights-generator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/insights-generator/index.html",
-    "static/css/main.84b096b6.chunk.css.map": "/insights-generator/static/css/main.84b096b6.chunk.css.map",
-    "static/js/2.ba907998.chunk.js.LICENSE.txt": "/insights-generator/static/js/2.ba907998.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/insights-generator/static/media/logo.6ce24c58.svg",
-    "static/media/undraw_Data_points_re_vkpq.7f5d03c3.svg": "/insights-generator/static/media/undraw_Data_points_re_vkpq.7f5d03c3.svg",
-    "static/media/undraw_data_processing_yrrv.f1a92978.svg": "/insights-generator/static/media/undraw_data_processing_yrrv.f1a92978.svg"
+    "main.e739416e.css.map": "/insights-generator/static/css/main.e739416e.css.map",
+    "main.5f365aa3.js.map": "/insights-generator/static/js/main.5f365aa3.js.map",
+    "787.ab56a134.chunk.js.map": "/insights-generator/static/js/787.ab56a134.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.205034ab.js",
-    "static/js/2.ba907998.chunk.js",
-    "static/css/main.84b096b6.chunk.css",
-    "static/js/main.49be466c.chunk.js"
+    "static/css/main.e739416e.css",
+    "static/js/main.5f365aa3.js"
   ]
 }
