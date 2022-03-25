@@ -26,7 +26,7 @@ function App() {
     formData.append('file', selectedFile);
 
 		fetch(
-			'http://127.0.0.1:5000/generate_report',
+			'https://fast-insights-generator.herokuapp.com/generate_report',
 			{
 				method: 'POST',
 				body: formData,
@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="App">
     <div className="Menu-bar">
-    <div id="home-name" > Insight-Generator </div>
+    <div id="home-name" > Insights-Generator </div>
       <nav id="main-menu">
           <ul class="nav-bar">
                 <li class="nav-button-home"><a href="#">Home</a></li>
@@ -81,7 +81,7 @@ function App() {
           {/* <p>WORLDS BEST ANALYTICS TOOL</p> */}
           <h3> Understand Your Data <br/> Like Never Before </h3>
           <p className="Description">
-            Insight-Generator is world's first patform to <br/> get Insights of any csv file withim seconds.   
+            Insights-Generator is world's first patform to <br/> get insights of any csv file within seconds.   
           </p>
         </div>
 
